@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        table, td, th{
+            border:solid
+            }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Planes </title>
+    <script src="https://kit.fontawesome.com/75974f931b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style form.css">
+</head>
+<body>
+    <div id="container" >
+        <header>
+            <div class="img-header">
+                <img src="logo.png" alt="logo" width="50" height="50">
+            </div> 
+                <div class="container-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="planes.html"> Planes de Alimentacion </a></li> 
+                            <li><a href="formulario premium.html">Formulario</a></li> 
+                            <li><a href="formulario premium.html">Encargos</a></li> 
+                            <li> <a href="contacto.html">Contacto</a> </li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+        <div class="out-box">           
+            <h1>Completa el formulario</h1>
+        
+            <div class="form-box">
+                <form action="show_data.html">
+                    <div class="box-persona">   
+                        <h2>Datos de persona a cargo</h2>
+                            <div class="nombre-mail-persona">
+                                <div class="nombre-persona">
+                                    <label>
+                                        <input type="text" name="Nombre_Apellido" placeholder="Nombre y apellido" required>
+                                    </label>
+                                </div> 
+                                                
+                                <div class="mail-persona">
+                                    <label> 
+                                        <input type="email" name="Email" placeholder="Correo electrónico" required>
+                                    </label> 
+                                </div>   
+                            </div>            
+                    </div>
+                
+                    
+                    <div class="box-mascota">
+                            <h2>Datos de tu mascota</h2>
+                        <div class="mascota-1-2">
+                            <div class="mascota-1">
+                                <label>
+                                    <input type="text" name="Nombre de mascota" placeholder="Nombre del perro" required>
+                                </label>
+                                <br>
+                                <br>
+                                <label>
+                                    <input type="number" name="Edad de mascota" placeholder="Edad del perro" min="1" required>
+                                                    año(s)
+                                </label>
+                                <br>
+                                <br>
+                                <label>
+                                    <input type="text" name="Raza de mascota" placeholder="Raza del perro" required>
+                                </label>
+                               
+                            
+                            </div>
+
+                            <div class="mascota-2">
+                                <label>
+                                    <input type="number" name="Peso de mascota" placeholder="Peso en kg." step="0.1" min="0.1" required> Kg.
+                                </label>
+                                <br>
+                                <br>
+                                <label>
+                                    <input type="number" name="Largo de mascota" placeholder="Largo en cm." step="1" min="1" required> cm.
+                                </label>
+                                <br>
+                                <br>
+                                <label>
+                                    <input type="number" name="Alto de mascota" placeholder="Alto en cm" step="1"  min="1" required> cm.
+                                </label>
+                            </div>
+                        </div>
+                       
+
+                        <div class="mascota-3">
+                                        
+                            <div class="dieta-actual">
+                                <label class="select"> <p> Dieta actual </p> 
+                                    <select name="Dieta actual" id="">
+                                        <option value="Balanceado">Balanceado</option>
+                                        <option value="Barf">Barf</option>
+                                    </select>
+                                </label>
+                            </div>    
+                                
+                            <div class="comentario">
+                                <label> 
+                                    <p>
+                                    ¿Tu perro sufre alguna enfermedad? <br>
+                                    descríbela: </p> 
+                                   
+                                    <textarea name="comentario" cols="20" rows="2">
+
+                                    </textarea>
+
+                                </label>
+                            </div>
+                            
+                          
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="botones">
+                        <input type="reset" name="reset">
+                        <input type="submit" name="enviar">
+                    </div>
+                </form>
+            </div>  
+        </div>  
+
+        <footer>
+            <ul> <b> <a href="home.html">Home</a>  </b>
+                    <li> <a href="planes.html">Planes de alimentación </a> </li>
+                    <li><a href="formulario premium.html">Formulario</a> </li>
+                    <li> <a href="pedidos.html">Encargos </a>  </li>
+                    <li> <a href="contacto.html">Contacto</a> </li>
+            </ul>
+            <ul> <b> <a href="planes.html">Planes de alimentación </a> </b>
+                    <li>Barf</li>
+                    <li>Comida cocida</li>
+                    <li>Prey</li>
+            </ul>
+            <ul> <b> <a href="formulario premium.html">Formulario</a> </b> </ul>
+            <ul> <b><a href="pedidos.html">Encargos </a>  </b></ul>
+            <ul> <b><a href="contacto.html">Contacto</a> </b></ul>
+        </footer>
+    </div>  
+</body>
+</html>
