@@ -7,8 +7,21 @@ a {
     color: black;
 }
 
-a:hover{
-    color: darkblue;
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+footer a{ 
+    text-decoration: none;
+    color: black;
 }
 #container {
                 height: auto;
@@ -28,7 +41,7 @@ header {
             margin: 0 auto;
             display: flex;
             align-items: flex-end;
-            background-color: #fe4533;
+            background-color: #2580c3;
             flex-wrap: wrap;
             max-width: 980px;
             min-width: 220px;
@@ -68,8 +81,8 @@ nav ul li{
 }
 
 main {
-    background-color: #9ac4dc;
-    
+    background-color: #1c2537;
+    color: white;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -129,10 +142,18 @@ text-align: center;
 font-size: small;
 }
 
+.boxes-container a{
+    color: white;
+}
+
+.boxes-container a{
+    color: white;
+}
+
 
 
 .flex-item1{
-    background-color: #ec96bb;
+    background-color: #25dd85;
 width: 25%;
 border: 1px solid black;
 box-shadow: 2px 2px 5px black ;
@@ -143,7 +164,7 @@ min-width: 145px;
 
 
 .flex-item2{
-    background-color: #ec96bb;
+    background-color: #25dd85;
 
 width: 25%;
 border: 1px solid black;
@@ -154,7 +175,7 @@ min-width: 145px;
 
 }
 .flex-item3{
-    background-color: #ec96bb;
+    background-color: #25dd85;
 width: 25%;
 border: 1px solid black;
 max-height: 51px;
@@ -165,8 +186,8 @@ min-width: 145px;
 }
 
 footer {
-    background-color: #0d9c5c;
-   
+    background-color: #e0e0e0;
+    
         margin: 0 auto;
         display: flex;
         width: 91%;

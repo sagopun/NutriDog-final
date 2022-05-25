@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
- <style>
+    <style>
         table, td, th{
             border:solid
-        }
+            }
     </style>
 <head>
     <meta charset="UTF-8">
@@ -11,22 +11,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> NutriDog </title>
     <script src="https://kit.fontawesome.com/75974f931b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style home.css">
+    <link rel="stylesheet" href="style-contacto.css">
 </head>
-<body>
-    <header>
-        <img src="logo.png" alt="logo"> 
+    <body>
+        <div id="container" >
+            <header>
+                <div class="img-header">
+                    <img src="logo.png" alt="logo" width="50" height="50">
+                 </div> 
+                <div class="container-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="planes.html"> Planes de Alimentacion </a></li> 
+                            <li><a href="formulario.html">Formulario</a></li> 
+                            <li><a href="pedidos.html">Encargos</a></li> 
+                            <li> <a href="contacto.html">Contacto</a> </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="out-box">           
+                <h1>Comunícate con nostros </h1>
+            
+                <div class="form-box">
+                    <form action=# id="formulario">
+                        <div class="box-persona">   
+                            <h2>Ingresa tus datos </h2>
+                                <div class="nombre-mail-persona">
+                                    <div class="nombre-persona" id="nombre">
+                                        <label for="nombre">
+                                            <input type="text" name="nombre" placeholder="Nombre y apellido" id="nombre" required>
+                                        </label>
+                                    </div> 
+                                                    
+                                    <div class="mail-persona">
+                                        <label> 
+                                            <input type="email" name="correo" placeholder="Correo electrónico" required>
+                                        </label> 
+                                    </div>   
+                                </div>            
+                        </div>
+                    
+                        
+                        <div class="box-mascota">
         
+                            <div class="comentario">
+                                <label> 
+                                     <p>
+                                        Déjanos tu comentario:  </p> 
+                                       
+                                    <textarea name="comentario" cols="40" rows="10">
+        
+                                    </textarea>
+        
+                                </label>
+                            </div>
+                                
+                              
+        
+                        </div>
+                        <br>
+                        <br>
+                        <div class="botones">
+                            <input type="reset" name="reset">
+                            <input type="submit" name="Enviar">
+                        </div>
+                
+                       
+                    </form>
+                </div>  
+                <div class="mapa"> <h1>¿Dónde estamos? </h1> 
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26282.183451549274!2d-58.506256352221655!3d-34.57195994991696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb65c360890c1%3A0x8bd20bac2f970066!2sVilla%20Urquiza%2C%20CABA!5e0!3m2!1ses!2sar!4v1652056236356!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>  
     
-    <nav>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="planes.html"> Planes de Alimentacion </a></li> 
-            <li><a href="formulario premium.html">Formulario</a></li> 
-            <li>Encargos</li> 
-            <li>Contacto</li>
-    </ul>
-    </nav>
-</header>
+            <footer>
+                <ul> <b> <a href="home.html">Home</a>  </b>
+                        <li> <a href="planes.html">Planes de alimentación </a> </li>
+                        <li><a href="formulario.html">Formulario</a> </li>
+                        <li> <a href="pedidos.html">Encargos </a>  </li>
+                        <li> <a href="contacto.html">Contacto</a> </li>
+                </ul>
+                <ul> <b> <a href="planes.html">Planes de alimentación </a> </b>
+                        <li>Barf</li>
+                        <li>Comida cocida</li>
+                        <li>Prey</li>
+                </ul>
+                <ul> <b> <a href="formulario.html">Formulario</a> </b> </ul>
+                <ul> <b><a href="pedidos.html">Encargos </a>  </b></ul>
+                <ul> <b><a href="contacto.html">Contacto</a> </b></ul>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26282.183451549274!2d-58.506256352221655!3d-34.57195994991696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb65c360890c1%3A0x8bd20bac2f970066!2sVilla%20Urquiza%2C%20CABA!5e0!3m2!1ses!2sar!4v1652056236356!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </footer>
+        </div>  
+    
+</body>
+</html>
+

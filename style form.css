@@ -7,8 +7,21 @@ a {
     color: black;
 }
 
-a:hover{
-    color: darkblue;
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+footer a{ 
+    text-decoration: none;
+    color: black;
 }
 #container {
                 height: auto;
@@ -26,7 +39,7 @@ header {
             margin: 0 auto;
             display: flex;
             align-items: flex-end;
-            background-color: #9ac4dc;
+            background-color: #2580c3;
             flex-wrap: wrap;
             max-width: 980px;
             min-width: 220px;  
@@ -58,7 +71,7 @@ nav ul li{
 
 
 .out-box {
-    background-color: #ec96bb;
+    background-color: #1c2537;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
@@ -71,50 +84,69 @@ nav ul li{
         padding-right: 4opx;
         padding-left: 40px;
         padding-bottom: 40px;
+        color: white;
 
 }
 
 h1 {
     text-align: center;
+    overflow-wrap: break-word;
+    color: white;
 }
 
 h2{
     text-align: left;
+    overflow-wrap: break-word;
+    color: white;
 }
 
 .form-box{
-    background-color: #9ac4dc;
+    background-color: #25dd85;
     width: 70%;
     border: 1px solid black;
     box-shadow: 2px 2px 5px black ;
     align-self: center;
+
     
 }
 
 .box-persona{
     padding-left: 40px;
     display: block;
+    flex-wrap: wrap;
     
 }
 .nombre-mail-persona{
     display: flex;
+    min-width: 86px;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .nombre-persona{
     width: 45%;
+    
+    min-width: 100px;
 }
 
 .mail-persona{
     width: 45%;
+   
+    min-width: 100px;
 }
 
 .mascota-1{
     width: 45%;
+    
+    min-width: 100px;
+   
 }
 
 .mascota-2{
     width: 45%;
+    
+    min-width: 100px;
+ 
 }
 
 form{
@@ -128,17 +160,20 @@ form{
     padding-left: 40px;
     justify-content: space-around;
     display: block;
+    flex-wrap: wrap;
     
 
 }
 .mascota-1-2{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .mascota-3 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -146,15 +181,23 @@ form{
 .comentario{
     display: block;
     width: 45%;
+    min-width: 50px;
+
     
 }
 .dieta-actual{
     width: 45%;
+    min-width: 50px;
+
+}
+
+select{
+    min-width: 50px;
 }
 
 
 footer {
-    background-color: #fe4533;;
+    background-color: #e0e0e0;
         margin: 0 auto;
         display: flex;
         width: 91%;
@@ -179,8 +222,13 @@ p{
     padding-bottom: 40px;
 }
 
+.box-mascota input{
+   width: 50%;
+}
 
-
+.box-persona input {
+    width: 50%;
+}
 
 
 
